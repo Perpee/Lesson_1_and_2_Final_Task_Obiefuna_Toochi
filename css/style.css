@@ -50,3 +50,131 @@ table {
 
 
 /* Write your css below here */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    overflow: hidden;
+    font-family: arial,sans-serif;
+    width: 100vw;
+    font-size: 15px;
+}
+
+header {
+    margin: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.main{
+    margin: 37px 0;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.main .search{
+    border: 1px rgb(212 192 192) solid;
+    width: 500px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    padding: 5px 10px;
+}
+
+input{
+    /* background-color: red; */
+    padding: 5px 0;
+    flex: 1;
+    border: none;outline: none;
+    
+
+}
+
+.mic{
+    height: 25px;
+    width: 25px;
+}
+
+.cam{
+    height: 20px;
+    width: 20px;
+}
+
+.main .search-button{
+    margin: 20px 0 10px;
+}
+
+.main .lang{
+    padding-top: 15px;
+}
+
+button{
+    margin-right: 5px;
+    color: #3c4043;
+    padding: 12px;
+    min-width:54px;
+    border-radius: 4px;
+    background-color: #f8f9fa;
+    border: none;
+    font-size: 14px;
+}
+
+a{
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+header a{
+    color: rgb(20 20 20);
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+header .account{
+    height: 30px;
+    width: 30px;
+    margin-right: 20px;
+}
+
+header .app{
+    margin-right: 20px;
+}
+
+footer{
+    background-color: #f2f2f2;
+    margin-top: 215px;
+}
+
+.nigeria{
+    color: #70757a;
+    border-bottom: 1px solid #dadce0;
+    padding: 15px 30px
+}
+
+.foot a{
+    color: #70757a;
+}
+
+.foot{
+    padding: 15px;
+}
+
+.foot1{
+    margin-right: 180px;
+}
+
+.foot2{
+    margin-right: 360px;
+   
+}
+
