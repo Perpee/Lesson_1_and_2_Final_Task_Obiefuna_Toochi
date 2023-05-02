@@ -8,7 +8,7 @@
 
 ##ensure you have node js installed in your machine
 
-##open your terminal and run "git clone "
+##open your terminal and run "git clone git@github.com:Perpe123/Lesson_1_and_2_Final_Task_Obiefuna_Toochi.git"
 
 ##run "npm install"
 
